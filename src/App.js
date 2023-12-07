@@ -19,7 +19,7 @@ function App() {
   const handleConfirmClick = () => {
     if (code === '335796') {
       // Redirect to external website
-      window.location.href = 'https://www.google.com';
+      window.location.href = 'https://docs.google.com/spreadsheets/d/1It5EwrSSTOSR4OeSFw8lWwtQQ8PUGM2g/edit#gid=1556498187';
     } else {
       // Set error state to true, which shows an error message
       setError(true);
